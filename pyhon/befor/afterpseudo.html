@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>befor and after psudeo selector</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+            color: white;
+        }
+        section{
+            border: 2px solid red;
+            margin: 3px 23px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .navigation{
+display: flex;
+font-size: 20px;
+        }
+        li{
+            list-style: none;
+            padding: 34px 23px;
+        }
+        section::before{
+content: "this is a content";
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li>home</li>
+                <li>about </li>
+                <li>service</li>
+                <li>contact us</li>
+            </ul>
+        </nav>
+        <section>
+            <h3>welcome to coding world</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eum hic exercitationem amet rem id laudantium facere! Facere quas dolore, atque eum quos deleniti. Consequuntur illo et aut labore vel! Quisquam adipisci quaerat omnis!</p>
+        </section>
+    </header>
+</body>
+</html>
