@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(pexels-andré-ulysses-de-salis-8246465.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.containor{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+
+}
+.containor h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+    padding: 13px;
+
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid purple;
+    margin: 32px;
+}
+.box input{
+    width: 70%;
+    padding: 13px;
+    font-size: 20px;
+    background: none;
+    outline: none;
+    color: white;
+}
+.box i{
+width: 25px;
+text-align: center;
+
+}
+
+.btn{
+    color: white;
+cursor: pointer;
+outline: none;
+width: 25%;
+margin: 12px 0;
+padding: 10px 21px;
+font-size: 20px;
+background: none;
+font-weight: bold;
+}
+.btn:hover{
+    opacity: 0.6;
+    color: purple;
+    background: white;
+}

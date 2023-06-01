@@ -1,0 +1,164 @@
+
+body{
+    background-image: url(pexels-mads-thomsen-1178448.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+#nav{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    background-color: rgba(217, 255, 0, 0.747);
+    border: 2px solid red;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    cursor: pointer;
+    position: sticky;
+    top: 0px;
+    
+}
+.s1{
+    margin: 10px;
+    padding: 55px;
+    font-size: 30px;
+    border: 2px solid black;
+    color:red;
+}
+.s2{
+    margin: 10px;
+    padding: 55px;
+    font-size: 30px;
+    border: 2px solid black;
+    color:red;
+   
+}
+.s3{
+    margin: 10px;
+    padding: 55px;
+    font-size: 30px;
+    border: 2px solid black;
+    color:red;
+
+}
+.s4{
+    margin: 10px;
+    padding: 55px;
+    font-size: 30px;
+    border: 2px solid black;
+    color:red;
+}
+.s5{
+    margin: 10px;
+    padding: 55px;
+    font-size: 30px;
+    border: 2px solid black;
+    color:red;
+}
+#chiru{
+    font-size: 80px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(58, 247, 11);
+}
+.om{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 169, 9);
+}
+.nama{
+    font-size: 90px;
+    text-align: center;
+    color: fuchsia;
+}
+.table{
+    height: 350px;
+    width: 750px;
+    border: 2px solid red;
+    background-color: aliceblue;
+    position: relative;
+    left: 25%;
+}
+.route-1{
+    border: 2px solid red;
+    margin: 0px;
+}
+.route-2{
+    border: 2px solid red;
+    margin: 0px;
+}
+.route-3{
+    border: 2px solid red;
+    margin: 0px;
+}
+.route-4{
+    border: 2px solid red;
+    margin: 0px;
+}
+.route-5{
+    border: 2px solid red;
+    margin: 0px;
+}
+.route-6{
+    border: 2px solid red;
+    margin: 0px;
+}
+.route-7{
+    border: 2px solid red;
+    margin: 0px;
+}
+.route-8{
+    border: 2px solid red;
+    margin: 0px;
+}
+.contacts{
+    height: 440px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+
+
+
+}
+.s6{
+    color: rgb(11, 53, 238);
+    height: 100px;
+    width: 100px;
+}
+.map{
+color: white;
+    position: relative;
+    top: 20%;
+    padding: 20px;
+}
+.insta{
+    color: red;
+    position: relative;
+    top: 20%;
+}
+.email{
+    color: red;
+    position: relative;
+    top: 20%;
+    left: 6%;
+}
+.facebook{
+    color: red;
+    position: relative;
+    top: 20%;
+    left: 1%;
+}
+#contact{
+    font-size: 30px;
+    position: relative;
+    left: 30%;
+}

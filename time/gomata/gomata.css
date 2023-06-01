@@ -1,0 +1,12 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+width: 100%;
+    margin: 0px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(15, 94, 94, 0.384);
+    border: 2px black;
+    position: sticky;
+    font-size: larger;
+}
